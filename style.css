@@ -37,8 +37,7 @@ button {
 
 
 body {
-    width: 100%;
-
+    width: 80%;
 }
 
 /*<SPAN> ETIQUETA SIN JERARQUIA PARA SELECCIONAR TEXTO*/
@@ -55,14 +54,17 @@ section {
     padding: 20px;
     /*display FLEX: cambia el eje principal,permite mod elementos hijos*/
     /*flex-direction:column o row (columna o fila)*/
-    display: flex;
     /*justify-content: justifica el contenido, lo alinea (flex/grid/flex-start/
     flex-end/space-between/space-araund/space-evenly) en el eje principal*/
-    justify-content: space-between;
     /*align-items:alinea los elementos en el eje vertical */
-    align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     /*vh:viewport heigth: altura de la ventana*/
+    /*grid-template-column: para agregar columnas*/
+    grid-template-columns:repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax (100px,1fr));
+    /*gap: sirve para usar con grid o flex,para separar elemento en contenedores*/
+    gap: 10px;;
 }
 
 div {
@@ -71,7 +73,7 @@ div {
     border-radius: 10px;
     box-shadow: 10px 10px 5px 0px red;
     font-family: monospace;
-    width: 400px;
+   
 
 }
 
