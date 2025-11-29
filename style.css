@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*box sizing: los bordes se acoplan y no se junten */
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    /*font-size: TAMAñO de la FUENTE*/
+    font-size: 40px;
+}
+
+    /*font-weith: PESO DE LA FUENTE()mas grosor*/
+
+    /*line-heigh: es el interlineado*/
+
+    /*font-style: estilo de letra (cursiva-normal)*/
+
+/*DISPLAY: COMO SE COMPORTA UN ELEMENTO EN EL FLUJO DEL DOCUMENTO*/
+/*DISPLAY BLOCK:OCUPA EL 100% DEL ANCHO DEL ELEMENTO PADRE */
+/*DISPLAY INLINE: OCUPA EL CONTENIDO EN LA LINEA QUE SE DECLARA, no redimensiona*/
+/*DISPLAY INLINE-BLOCK: EN LA LINEA PERO ADMITE REDIMENSION*/
+/*DISPLAY FLEX: MANEJA FILAS O COLUMNAS*/   
+/*DISPLAY GRID:MANEJA GRILLAS/ FILAS Y COLUMNAS*/ 
+
+
+h1{
+    background-color: yellowgreen;
+    display: block;
+}
+button{
+    background-color: violet ;
+    display: block;
+}
+
+
+body{
+    width: 100%;
+}
+
+/*<SPAN> ETIQUETA SIN JERARQUIA PARA SELECCIONAR TEXTO*/
+span{
+    color:rgb(0, 21, 255);
+    display: inline-block ;
+font-weight: bold;
+background-color: aquamarine;
+width: 125px;
+}
+
+section{
+background-color:rgb(247, 120, 9);
+padding: 20px;
+}
+
+div{
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px red;
+    font-family: monospace;
+    width: 400PX;
+}
+
+div h2{
+font-size: 18px;
+text-align: center;
+margin-bottom: 10px;
+}
+div h3 {
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+}
+p{
+    color:gray;
+    font-size: 15px;
+    background-color: yellow;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div button {
+    border: none;
+    background-color: rgb(157, 234, 227);
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
