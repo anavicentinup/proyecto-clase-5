@@ -62,7 +62,7 @@ section {
     /*grid-template-column: para agregar columnas*/
     grid-template-columns:repeat(3, 1fr);
     display: grid;
-    grid-template-columns: repeat( auto-fit,minmax (100px,1fr));
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     /*gap: sirve para usar con grid o flex,para separar elemento en contenedores*/
     gap: 10px;;
 }
